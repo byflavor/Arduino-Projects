@@ -1,6 +1,4 @@
 #include <math.h>
-//Rashmi Alawani
-
 int value = 0;
 float scaleFactor = 5.0/1023;
 float voltage = 0.0;
