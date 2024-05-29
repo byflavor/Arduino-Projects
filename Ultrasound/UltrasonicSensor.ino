@@ -2,10 +2,6 @@
 #include <LiquidCrystal.h>
 #include <NewPing.h> 
 
-//Rashmi Alawani
-//in the video, there is a foot (300 mm=30 cm) of blank space that I measured out
-//I placed the box at 200 mm = 20 cm, so the total distance is 50 cm. The ultrasonic
-//sensor reads 47 cm, so it is 3 cm off. The other images were almost perfecty accurate
 
 LiquidCrystal lcd(7, 8, 9, 10, 11, 12);
 UltraSonicDistanceSensor uds(2, 3);
